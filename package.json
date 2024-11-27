@@ -3,5 +3,10 @@
     "version": "1.0.0",
     "scripts": {
       "heroku-postbuild": "npm install --prefix backend && npm install --prefix frontend && npm install --prefix admin && npm run build --prefix frontend && npm run build --prefix admin"
+    },
+    "engines": {
+      "node": "16.x",
+      "npm": "8.x"
     }
   }
+  
