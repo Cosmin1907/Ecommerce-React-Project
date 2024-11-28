@@ -32,14 +32,14 @@ const ListProduct = () => {
 
   return (
     <div className='list-product'>
-        <h1>All Products List</h1>
+        <h1>Produse Adaugate</h1>
         <div className="listproduct-format-main">
-            <p>Products</p>
-            <p>Title</p>
-            <p>OldPrice</p>
-            <p>NewPrice</p>
-            <p>Category</p>
-            <p>Remove</p>
+            <p>Produse</p>
+            <p>Titlu</p>
+            <p>Pret Vechi</p>
+            <p>Pret Nou</p>
+            <p>Categorie</p>
+            <p>Sterge</p>
         </div>
         <div className="listproduct-allproducts">
             <hr />
